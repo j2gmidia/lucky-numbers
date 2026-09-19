@@ -44,6 +44,12 @@ export const Route = createRootRoute({
     <html lang="pt-BR" className="antialiased" suppressHydrationWarning>
       <head>
         <HeadContent />
+        <script
+          src="https://api.paggins.com/public/products/vsl-validation/paggin-vsl.js"
+          data-product-id="5cae9f94-2b63-42dc-908e-d0bbafd8e787"
+          data-token="7c155cf9-1bf1-4653-b3f6-9480eedf042f"
+          async
+        />
       </head>
       <body>
         <PreviewHostBridge />
