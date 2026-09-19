@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="LuckySlip">
+  <rect width="32" height="32" rx="8" fill="#EDE6D8"/>
+  <circle cx="16" cy="16" r="10.5" fill="#B42318"/>
+  <circle cx="12.5" cy="12.5" r="3.2" fill="#F7F2E8" opacity="0.38"/>
+</svg>
