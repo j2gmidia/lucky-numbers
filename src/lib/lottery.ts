@@ -152,5 +152,5 @@ export function formatTicketBlock(game: GameDef, tickets: Ticket[]): string {
   const lines = tickets.map((ticket, i) => {
     return `${i + 1}.  ${formatTicketLine(game, ticket)}`;
   });
-  return `${game.name} · Lucky Numbers\n${lines.join("\n")}`;
+  return `${game.name} · Lotto Money\n${lines.join("\n")}`;
 }
