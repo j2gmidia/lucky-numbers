@@ -5,18 +5,18 @@
   --font-display: "Instrument Serif", ui-serif, Georgia, "Times New Roman",
     serif;
 
-  --color-bg: #ede6d8;
-  --color-paper: #f7f2e8;
-  --color-ink: #171411;
-  --color-muted: #6f685c;
-  --color-subtle: #9a9286;
-  --color-accent: #b42318;
-  --color-accent-fg: #f7f2e8;
-  --color-border: #d5ccbc;
-  --color-special: #b42318;
-  --color-special-fg: #f7f2e8;
-  --color-ball: #fffdf8;
-  --color-ball-fg: #171411;
+  --color-bg: #0B1A2F;
+  --color-paper: #13233A;
+  --color-ink: #F8FAFC;
+  --color-muted: #94A3B8;
+  --color-subtle: #64748B;
+  --color-accent: #EF4444;
+  --color-accent-fg: #FFFFFF;
+  --color-border: #1E3A5F;
+  --color-special: #EF4444;
+  --color-special-fg: #FFFFFF;
+  --color-ball: #FFFFFF;
+  --color-ball-fg: #0B1A2F;
 
   --radius-xs: 4px;
   --radius-sm: 8px;
@@ -63,10 +63,10 @@
     color: var(--color-ink);
     font-family: var(--font-sans);
     background-image: radial-gradient(
-      color-mix(in oklab, var(--color-ink) 4%, transparent) 0.8px,
-      transparent 0.9px
+      color-mix(in oklab, var(--color-ink) 3%, transparent) 0.6px,
+      transparent 0.7px
     );
-    background-size: 4px 4px;
+    background-size: 6px 6px;
   }
 
   h1,
@@ -124,10 +124,11 @@
   background: var(--color-paper);
   background-image: linear-gradient(
     180deg,
-    color-mix(in oklab, var(--color-paper) 100%, white 4%) 0%,
+    color-mix(in oklab, var(--color-paper) 100%, white 6%) 0%,
     var(--color-paper) 40%,
-    color-mix(in oklab, var(--color-bg) 18%, var(--color-paper)) 100%
+    color-mix(in oklab, var(--color-bg) 30%, var(--color-paper)) 100%
   );
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
 }
 
 .ticket-slip::before {
