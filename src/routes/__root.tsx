@@ -8,7 +8,7 @@ import { AuthProvider } from "@/lib/auth/provider";
 import { PreviewHostBridge } from "@/components/preview-host-bridge";
 import appCss from "../styles.css?url";
 
-const APP_NAME = "Lucky Numbers";
+const APP_NAME = "Lotto Money";
 
 export const Route = createRootRoute({
   head: () => ({
@@ -21,7 +21,7 @@ export const Route = createRootRoute({
         content:
           "Gerador de números da loteria americana: Powerball, Mega Millions, Lotto America e Millionaire for Life.",
       },
-      { name: "theme-color", content: "#EDE6D8" },
+      { name: "theme-color", content: "#0B1A2F" },
     ],
     links: [
       { rel: "icon", type: "image/svg+xml", href: "/favicon.svg" },
